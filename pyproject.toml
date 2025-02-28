@@ -1,0 +1,18 @@
+[tool.briefcase]
+project_name = "ElectionApp"
+bundle = "com.electionapp"
+version = "1.0.0"
+description = "An election management application with various functionalities."
+author = "Your Name"
+author_email = "you@example.com"
+url = "https://electionapp.example.com"
+
+requires = [
+    "matplotlib",  # Add any other dependencies your project requires
+    # "other_dependency"
+]
+
+[tool.briefcase.app.ElectionApp]  # 'ElectionApp' should match your project directory name
+formal_name = "Election App"
+description = "An election management application with various functionalities."
+sources = ['ElectionApp']  # Make sure this matches your main project folder name
